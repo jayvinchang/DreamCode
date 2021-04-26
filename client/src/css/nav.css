@@ -1,0 +1,81 @@
+/* Nav bar general layout */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/*Make the scrolling smooth*/
+* {
+  scroll-behavior: smooth;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+}
+
+.topnav .dropdown-menu {
+  right: 0;
+}
+
+.topnav-item {
+  right: 10px;
+  position: absolute;
+}
+.topnav-item a:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.topnav-item .active {
+  background-color: #c7d8e7;
+}
+
+.topnav a {
+  border-radius: 10px;
+  top: 0;
+  padding: 5px 5px 5px 5px;
+  margin: 13px 15px 5px 5px;
+  text-decoration: none;
+  text-align: left;
+  width: fit-content;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+}
+
+.topnav .logo {
+	color: #3694ff !important;
+}
+
+.bottomnav {
+  height: 50px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+.bottomnav a {
+  border-radius: 10px;
+  bottom: 0;
+  padding: 5px 5px 5px 5px;
+  margin: 13px 15px 5px 5px;
+  text-decoration: none;
+}
+
+.bottomnav a:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.signin a {
+  border-style: inset;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.signin a:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  font-family: "Lobster", cursive;
+}

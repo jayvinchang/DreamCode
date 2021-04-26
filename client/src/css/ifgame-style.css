@@ -1,0 +1,148 @@
+#ifgame_body {
+	padding: 0;
+	padding-bottom: 5vw;
+	padding-top: 1vw;
+	font-family: sans-serif;
+	font-size: 1vw;
+}
+
+#ifgame_body p {
+	margin-bottom: 1vw;
+}
+
+#ifgame_body button:hover:enabled {
+	background-color: #d5d5d5;
+}
+
+.ifgame_pre {
+	color: inherit !important;
+	font-size: 100%;
+}
+
+.ifgame_h1 {
+	margin: 0px;
+	font: bold 3vw verdana;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+
+.ifgame_h2 {
+	font: bold 2vw verdana;
+	text-align: center;
+	background-color: #0d659d;
+	color: #fbfaf5 !important;
+	padding-top : 1vw;
+	padding-bottom: 1vw;
+	margin-bottom: 1.5vw;
+}
+
+.ifgame_button {
+	display: block;
+	text-align: center;
+	font: normal 1vw verdana;
+	width: 100%;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	margin-top: 1.5vw;
+	margin-bottom: 1.5vw;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	border: solid 1px rgba(0,0,0,0.2);
+	color: black !important;
+}
+
+#ifGameContent {
+	margin: 0 6vw 1vw 6.5vw;
+}
+
+/* Option menus */
+#ifGameContent #option-select {
+	margin-right: 2vw;
+}
+
+#ifGameContent .option {
+	margin-bottom: 2vw;
+}
+
+#ifGameContent .option > .ifgame_select {
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	border: solid 1px rgba(0,0,0,0.2);
+	color: black !important;
+	padding: 1vw .5vw 1vw .5vw;
+	font: bold 1vw verdana;
+	margin-left: .5vw;
+}
+
+#ifGameContent .ifgame_select option {
+	color: black !important;
+}
+
+#ifGameContent #game-window {
+	position: relative;
+	display: grid;
+	grid-template-columns: 25% 50% auto;
+	grid-template-rows: 57.5vw;
+}
+
+#ifGameContent #game-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+#ifGameContent .grid-position {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	width: auto;
+	border: 1px solid gray;
+	text-align: center;
+	background-color: #555;
+}
+
+#ifGameContent #robot {
+	position: absolute;
+	width: 8%;
+}
+
+#ifGameContent #goal {
+	position: absolute;
+	width: 10%;
+}
+
+#ifGameContent #robot-try-again {
+	visibility: hidden;
+	display: block;
+}
+
+
+/*Code output section*/
+#ifGameContent #ifCode {
+	visibility: hidden;
+	background-color: #050b1f;
+	color: #fbfaf5 !important;
+}
+
+#ifGameContent #ifCode > #ifGameCode-output {
+	visibility: inherit;
+	text-align: left;
+	background-color: #050b1f;
+	color: #6bcae2 !important;
+	padding-bottom: 1vw;
+}
+
+#ifGameContent #ifGameCode-elements {
+	visibility: hidden;
+}
+
+#ifGameContent #ifGameCode-elements > div {
+	color: white !important;
+	margin-top: .5vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	text-align: left;
+}
+
+#ifGameContent .highlighted {
+	display: inline;
+	color: #6bcae2 !important;
+}
