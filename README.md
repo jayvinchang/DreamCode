@@ -13,9 +13,6 @@ Visit https://dreamteam-web.herokuapp.com/
 Akeem Brisco\
 https://github.com/akeembrisco
 
-Hao Mack Yang\
-https://github.com/mulliganaceous
-
 Jazelle Diaz\
 https://github.com/Jheyzelle
 
